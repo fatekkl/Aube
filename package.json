@@ -4,7 +4,7 @@
   "description": "Aube is a serene VSCode theme based on peaceful palettes with a refined gold and blue + green color combination.",
   "repository": "https://github.com/fatekkl/Aube",
   "publisher": "fatekkl",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "engines": {
     "vscode": "^1.100.0"
   },
