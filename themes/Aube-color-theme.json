@@ -109,7 +109,7 @@
       "name": "punctuation.definition",
       "scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
       "settings": {
-        "foreground": "#aeda4c"
+        "foreground": "#99cfb3"
       }
     },
     {
@@ -144,7 +144,7 @@
       "name": "inserted.diff",
       "scope": "markup.inserted.diff",
       "settings": {
-        "foreground": "#aeda4c"
+        "foreground": "#99cfb3"
       }
     },
     {
@@ -736,7 +736,7 @@
       "name": "Strings",
       "scope": "string",
       "settings": {
-        "foreground": "#aeda4c"
+        "foreground": "#99cfb3"
       }
     },
     {
@@ -899,14 +899,14 @@
       "name": "[VSCODE-CUSTOM] Markdown Inline Raw",
       "scope": "markup.inline.raw.markdown",
       "settings": {
-        "foreground": "#aeda4c"
+        "foreground": "#99cfb3"
       }
     },
     {
       "name": "[VSCODE-CUSTOM] Markdown Inline Raw",
       "scope": "markup.inline.raw.string.markdown",
       "settings": {
-        "foreground": "#aeda4c"
+        "foreground": "#99cfb3"
       }
     },
     {
@@ -1038,7 +1038,7 @@
       "name": "Source Json Meta Structure Dictionary Json > Value Json > String Quoted Json,source Json Meta Structure Array Json > Value Json > String Quoted Json,source Json Meta Structure Dictionary Json > Value Json > String Quoted Json > Punctuation,source Json Meta Structure Array Json > Value Json > String Quoted Json > Punctuation",
       "scope": "source.json meta.structure.dictionary.json > value.json > string.quoted.json,source.json meta.structure.array.json > value.json > string.quoted.json,source.json meta.structure.dictionary.json > value.json > string.quoted.json > punctuation,source.json meta.structure.array.json > value.json > string.quoted.json > punctuation",
       "settings": {
-        "foreground": "#aeda4c"
+        "foreground": "#99cfb3"
       }
     },
     {
@@ -1381,7 +1381,7 @@
         "keyword.other.template.begin"
       ],
       "settings": {
-        "foreground": "#aeda4c"
+        "foreground": "#99cfb3"
       }
     },
     {
@@ -1390,7 +1390,7 @@
         "keyword.other.template.end"
       ],
       "settings": {
-        "foreground": "#aeda4c"
+        "foreground": "#99cfb3"
       }
     },
     {
@@ -1399,7 +1399,7 @@
         "keyword.other.substitution.begin"
       ],
       "settings": {
-        "foreground": "#aeda4c"
+        "foreground": "#99cfb3"
       }
     },
     {
@@ -1408,7 +1408,7 @@
         "keyword.other.substitution.end"
       ],
       "settings": {
-        "foreground": "#aeda4c"
+        "foreground": "#99cfb3"
       }
     },
     {
@@ -1537,7 +1537,7 @@
         "source.ini"
       ],
       "settings": {
-        "foreground": "#aeda4c"
+        "foreground": "#99cfb3"
       }
     },
     {
@@ -1591,7 +1591,7 @@
         "meta.definition.class.inherited.classes.groovy"
       ],
       "settings": {
-        "foreground": "#aeda4c"
+        "foreground": "#99cfb3"
       }
     },
     {
@@ -1697,7 +1697,7 @@
         "beginning.punctuation.definition.quote.markdown.xi"
       ],
       "settings": {
-        "foreground": "#aeda4c"
+        "foreground": "#99cfb3"
       }
     },
     {
@@ -1847,8 +1847,9 @@
   "colors": {
     "foreground": "#99cfb3",
     "focusBorder": "#99cfb3",
-    "selection.background": "#ebedc5",
-    "scrollbar.shadow": "#000000",
+    "selection.background": "#e8e6f056",
+    "scrollbar.shadow": "#2C2C2C",
+    "toolbar.hoverBackground": "#99cfb3",
     "activityBar.foreground": "#99cfb3",
     "activityBar.background": "#333333",
     "activityBar.inactiveForeground": "#ebedc5",
@@ -1861,11 +1862,11 @@
     "sideBarSectionHeader.border": "#cccccc33",
     "sideBarTitle.foreground": "#ebedc5",
     "list.inactiveSelectionBackground": "#37373d",
-    "list.inactiveSelectionForeground": "#cccccc",
+    "list.inactiveSelectionForeground": "#99cfb3",
     "list.hoverBackground": "#2a2d2e",
-    "list.hoverForeground": "#99cfb3",
+    "list.hoverForeground": "#347785",
     "list.activeSelectionBackground": "#99cfb336",
-    "list.activeSelectionForeground": "#ffffff",
+    "list.activeSelectionForeground": "#99cfb3",
     "tree.indentGuidesStroke": "#585858",
     "list.dropBackground": "#383b3d",
     "list.highlightForeground": "#99cfb3",
@@ -1916,7 +1917,7 @@
     "editorLineNumber.foreground": "#ebedc5",
     "editorCursor.foreground": "#8c3e62",
     "editorCursor.background": "#e8e6f0",
-    "editor.selectionBackground": "#99cfb318",
+    "editor.selectionBackground": "#e60000",
     "editor.inactiveSelectionBackground": "#3a3d41",
     "editorWhitespace.foreground": "#e3e4e229",
     "editor.selectionHighlightBackground": "#add6ff26",
@@ -1996,13 +1997,13 @@
     "breadcrumb.foreground": "#99cfb3",
     "breadcrumb.focusForeground": "#347785",
     "editorGroupHeader.tabsBackground": "#252526",
-    "tab.activeForeground": "#ffffff",
+    "tab.activeForeground": "#99cfb3",
     "tab.border": "#252526",
     "tab.activeBackground": "#1e1e1e",
     "tab.activeBorder": "#00000000",
     "tab.activeBorderTop": "#00000000",
     "tab.inactiveBackground": "#2d2d2d",
-    "tab.inactiveForeground": "#ffffff80",
+    "tab.inactiveForeground": "#ebedc5",
     "scrollbarSlider.background": "#79797966",
     "scrollbarSlider.hoverBackground": "#646464b3",
     "scrollbarSlider.activeBackground": "#bfbfbf66",
@@ -2055,12 +2056,12 @@
     "peekView.border": "#007acc",
     "peekViewEditor.background": "#001f33",
     "peekViewEditorGutter.background": "#001f33",
-    "peekViewEditor.matchHighlightBackground": "#ff8f0099",
-    "peekViewEditor.matchHighlightBorder": "#ee931e",
+    "peekViewEditor.matchHighlightBackground": "#e8e6f032",
+    "peekViewEditor.matchHighlightBorder": "#99cfb300",
     "peekViewResult.background": "#252526",
     "peekViewResult.fileForeground": "#ffffff",
     "peekViewResult.lineForeground": "#bbbbbb",
-    "peekViewResult.matchHighlightBackground": "#ea5c004d",
+    "peekViewResult.matchHighlightBackground": "#e8e6f02a",
     "peekViewResult.selectionBackground": "#3399ff33",
     "peekViewResult.selectionForeground": "#ffffff",
     "peekViewTitle.background": "#1e1e1e",
