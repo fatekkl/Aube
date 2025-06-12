@@ -22,7 +22,7 @@
 
 ## 🚀 Installation
 
-You can install the theme directly from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/VSCode).
+You can install the theme directly from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=fatekkl.aube&ssr=false#review-details).
 
 Or from the command line:
 
@@ -43,7 +43,7 @@ Preferences > Color Theme > Aube
 
 ## 💛 Credits
 
-Created with care by fatekkl.
+Created with care by Matheus de Oliveira.
 
 ---
 
