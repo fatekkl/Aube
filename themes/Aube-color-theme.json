@@ -804,6 +804,102 @@
         "foreground": "#e8e6f0"
       }
     },
+    // =================================================================
+    // =========== REGRAS ADICIONAIS PARA MARKDOWN (.MD) ===============
+    // =================================================================
+    {
+      "name": "Markdown - Títulos (#)",
+      "scope": [
+        "markup.heading.markdown",
+        "punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "foreground": "#EBEDC5" // Pale Yellow
+      }
+    },
+    {
+      "name": "Markdown - Itálico (*)",
+      "scope": "markup.italic.markdown",
+      "settings": {
+        "foreground": "#99CFB3", // Mint Green
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown - Negrito (**)",
+      "scope": "markup.bold.markdown",
+      "settings": {
+        "foreground": "#E8E6F0", // Soft Lilac
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown - Pontuação de Negrito e Itálico (*, **, _)",
+      "scope": [
+        "punctuation.definition.bold.markdown",
+        "punctuation.definition.italic.markdown"
+      ],
+      "settings": {
+        "foreground": "#347785" // Ocean Blue
+      }
+    },
+    {
+      "name": "Markdown - Listas (*, -, 1.)",
+      "scope": "punctuation.definition.list.begin.markdown",
+      "settings": {
+        "foreground": "#EBEDC5" // Pale Yellow
+      }
+    },
+    {
+      "name": "Markdown - Citações (>)",
+      "scope": "markup.quote.markdown",
+      "settings": {
+        "foreground": "#7f848e", // Cor de comentário (cinza)
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown - Bloco de Código Inline (` `)",
+      "scope": "markup.inline.raw",
+      "settings": {
+        "foreground": "#EBEDC5" // Alterado para Pale Yellow
+      }
+    },
+    {
+      "name": "Markdown - Bloco de Código (``` ```)",
+      "scope": "markup.fenced_code.block.markdown",
+      "settings": {
+        "foreground": "#EBEDC5" // Alterado para Pale Yellow
+      }
+    },
+    {
+      "name": "Markdown - Links - Descrição ([texto](url))",
+      "scope": "string.other.link.description.markdown",
+      "settings": {
+        "foreground": "#61afef", // Azul claro (usado para funções)
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Markdown - Links - Texto ([texto])",
+      "scope": "string.other.link.title.markdown",
+      "settings": {
+        "foreground": "#61afef", // Azul claro (usado para funções)
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Markdown - Links - URL ((url)) e Pontuação",
+      "scope": [
+        "markup.underline.link.markdown",
+        "punctuation.definition.string.begin.markdown",
+        "punctuation.definition.string.end.markdown",
+        "punctuation.definition.metadata.markdown"
+      ],
+      "settings": {
+        "foreground": "#347785" // Ocean Blue
+      }
+    },
     {
       "name": "Selector",
       "scope": "meta.selector",
@@ -1912,6 +2008,7 @@
     "inputOption.activeBorder": "#007acc00",
     "inputOption.activeForeground": "#e8e6f0",
     "input.placeholderForeground": "#a6a6a6",
+    "textCodeBlock.background": "#252526",
     "textLink.foreground": "#99cfb3",
     "editor.background": "#1e1e1e",
     "editor.foreground": "#e8e6f0",
